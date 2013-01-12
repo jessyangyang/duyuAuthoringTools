@@ -1,0 +1,70 @@
+/*!
+ * Style For Duyu
+ *
+ * Copyright 2012 Duyu, Inc
+ */
+
+body{background-color: #F7F4F1;}
+.header-nav {
+  background-color: #EDEAE8;
+  height:86px;
+  border: 0px;
+  border-bottom: 0.5px;
+  border-style:solid;
+  border-color: #ffffff;
+  text-align: center;
+}
+.header-nav h1 {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0px;
+	padding: 0px;
+}
+
+.right-tools {
+	position: absolute;
+	text-align: right;
+	right: 18px;
+	top: 10px;
+}
+.right-button {
+	position: absolute;
+	text-align: right;
+	right: 35px;
+	top: 35px;
+}
+.red-point {
+	width: 16px;
+	height:16px;
+	background-color:#bb4637; 
+	border: 1px solid #a01e1e;
+	-moz-border-radius:4em;
+    -webkit-border-radius:4em;
+    border-radius:4em;
+    -moz-border-bottom-colors: #a01e1e #c25e54;
+	-moz-border-top-colors: #a01e1e #c25e54;
+	-moz-border-left-colors: #a01e1e #c25e54;
+	-moz-border-right-colors: #a01e1e #c25e54;
+	-webkit-border-bottom-colors: #a01e1e #c25e54;
+	-webkit-border-top-colors: #a01e1e #c25e54;
+	-webkit-border-left-colors: #a01e1e #c25e54;
+	-webkit-border-right-colors: #a01e1e #c25e54;
+	box-shadow:0px 1px 2px #999999;
+	-moz-box-shadow:0px 1px 2px #999999;
+	-webkit-box-shadow:0px 1px 2px #999999;
+	position: relative;
+	top:0px;
+}
+.progress {margin:0 10px 0 10px;height:8px;margin-top: -14px}
+.p-bar {
+	width: 316px;
+	margin: 0 auto;
+	padding-top:0px; 
+}
+
+/* Fix */
+ul.inline > li, ol.inline > li {
+	padding: 0 23px 0 23px;
+	margin-top:8px; 
+	font-size: 12px;
+}
